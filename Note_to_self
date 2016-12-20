@@ -1,0 +1,13 @@
+#1 sudo apt-get install libsdl2-dev libtcod-dev libtcod-0
+
+#2 download libtcod library: http://roguecentral.org/doryen/libtcod/download/
+
+#3 copy all files in /libtcod to /usr/include
+
+#4 copy all files in /libtcod to program source directory (wherever the compiled C++ program is)
+
+#5 to compile: g++ "main file name".cpp -o "program name here" -Iinclude -Llib -ltcod-mingw -static-libgcc -static-libstdc++ -Wall
+
+#6 to run: ./"program name here"
+
+
